@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EEC5FCAD1956977100174DA8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEC5FCAC1956977100174DA8 /* Foundation.framework */; };
+		EEC5FCAF1956977100174DA8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEC5FCAE1956977100174DA8 /* CoreGraphics.framework */; };
+		EEC5FCB11956977100174DA8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEC5FCB01956977100174DA8 /* UIKit.framework */; };
+		EEC5FCB71956977200174DA8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EEC5FCB51956977200174DA8 /* InfoPlist.strings */; };
+		EEC5FCB91956977200174DA8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EEC5FCB81956977200174DA8 /* main.m */; };
+		EEC5FCBD1956977200174DA8 /* NLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EEC5FCBC1956977200174DA8 /* NLAppDelegate.m */; };
+		EEC5FCC01956977200174DA8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEC5FCBE1956977200174DA8 /* Main.storyboard */; };
+		EEC5FCC51956977200174DA8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEC5FCC41956977200174DA8 /* Images.xcassets */; };
+		EEC5FCCC1956977200174DA8 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEC5FCCB1956977200174DA8 /* XCTest.framework */; };
+		EEC5FCCD1956977200174DA8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEC5FCAC1956977100174DA8 /* Foundation.framework */; };
+		EEC5FCCE1956977200174DA8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEC5FCB01956977100174DA8 /* UIKit.framework */; };
+		EEC5FCD61956977200174DA8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EEC5FCD41956977200174DA8 /* InfoPlist.strings */; };
+		EEC5FCD81956977200174DA8 /* PixateAssociatedObjectsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EEC5FCD71956977200174DA8 /* PixateAssociatedObjectsTests.m */; };
+		EEC5FCE3195698EE00174DA8 /* NLTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEC5FCE2195698EE00174DA8 /* NLTableViewController.m */; };
+		EEC5FCE5195699B800174DA8 /* default.css in Resources */ = {isa = PBXBuildFile; fileRef = EEC5FCE4195699B800174DA8 /* default.css */; };
+		EF01B976D24149C9816F3C91 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F20C4D776D44254B92CB6FC /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EEC5FCCF1956977200174DA8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EEC5FCA11956977100174DA8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EEC5FCA81956977100174DA8;
+			remoteInfo = PixateAssociatedObjects;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4F20C4D776D44254B92CB6FC /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEC5FCA91956977100174DA8 /* PixateAssociatedObjects.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PixateAssociatedObjects.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEC5FCAC1956977100174DA8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EEC5FCAE1956977100174DA8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EEC5FCB01956977100174DA8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EEC5FCB41956977200174DA8 /* PixateAssociatedObjects-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PixateAssociatedObjects-Info.plist"; sourceTree = "<group>"; };
+		EEC5FCB61956977200174DA8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EEC5FCB81956977200174DA8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EEC5FCBA1956977200174DA8 /* PixateAssociatedObjects-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PixateAssociatedObjects-Prefix.pch"; sourceTree = "<group>"; };
+		EEC5FCBB1956977200174DA8 /* NLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NLAppDelegate.h; sourceTree = "<group>"; };
+		EEC5FCBC1956977200174DA8 /* NLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NLAppDelegate.m; sourceTree = "<group>"; };
+		EEC5FCBF1956977200174DA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EEC5FCC41956977200174DA8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EEC5FCCA1956977200174DA8 /* PixateAssociatedObjectsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PixateAssociatedObjectsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEC5FCCB1956977200174DA8 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		EEC5FCD31956977200174DA8 /* PixateAssociatedObjectsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PixateAssociatedObjectsTests-Info.plist"; sourceTree = "<group>"; };
+		EEC5FCD51956977200174DA8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EEC5FCD71956977200174DA8 /* PixateAssociatedObjectsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PixateAssociatedObjectsTests.m; sourceTree = "<group>"; };
+		EEC5FCE1195698EE00174DA8 /* NLTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NLTableViewController.h; sourceTree = "<group>"; };
+		EEC5FCE2195698EE00174DA8 /* NLTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NLTableViewController.m; sourceTree = "<group>"; };
+		EEC5FCE4195699B800174DA8 /* default.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = default.css; sourceTree = "<group>"; };
+		F792143383A142D397DA7A35 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EEC5FCA61956977100174DA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEC5FCAF1956977100174DA8 /* CoreGraphics.framework in Frameworks */,
+				EEC5FCB11956977100174DA8 /* UIKit.framework in Frameworks */,
+				EEC5FCAD1956977100174DA8 /* Foundation.framework in Frameworks */,
+				EF01B976D24149C9816F3C91 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEC5FCC71956977200174DA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEC5FCCC1956977200174DA8 /* XCTest.framework in Frameworks */,
+				EEC5FCCE1956977200174DA8 /* UIKit.framework in Frameworks */,
+				EEC5FCCD1956977200174DA8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EEC5FCA01956977100174DA8 = {
+			isa = PBXGroup;
+			children = (
+				EEC5FCB21956977200174DA8 /* PixateAssociatedObjects */,
+				EEC5FCD11956977200174DA8 /* PixateAssociatedObjectsTests */,
+				EEC5FCAB1956977100174DA8 /* Frameworks */,
+				EEC5FCAA1956977100174DA8 /* Products */,
+				F792143383A142D397DA7A35 /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		EEC5FCAA1956977100174DA8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EEC5FCA91956977100174DA8 /* PixateAssociatedObjects.app */,
+				EEC5FCCA1956977200174DA8 /* PixateAssociatedObjectsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EEC5FCAB1956977100174DA8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EEC5FCAC1956977100174DA8 /* Foundation.framework */,
+				EEC5FCAE1956977100174DA8 /* CoreGraphics.framework */,
+				EEC5FCB01956977100174DA8 /* UIKit.framework */,
+				EEC5FCCB1956977200174DA8 /* XCTest.framework */,
+				4F20C4D776D44254B92CB6FC /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EEC5FCB21956977200174DA8 /* PixateAssociatedObjects */ = {
+			isa = PBXGroup;
+			children = (
+				EEC5FCE1195698EE00174DA8 /* NLTableViewController.h */,
+				EEC5FCE2195698EE00174DA8 /* NLTableViewController.m */,
+				EEC5FCBB1956977200174DA8 /* NLAppDelegate.h */,
+				EEC5FCBC1956977200174DA8 /* NLAppDelegate.m */,
+				EEC5FCBE1956977200174DA8 /* Main.storyboard */,
+				EEC5FCC41956977200174DA8 /* Images.xcassets */,
+				EEC5FCB31956977200174DA8 /* Supporting Files */,
+				EEC5FCE4195699B800174DA8 /* default.css */,
+			);
+			path = PixateAssociatedObjects;
+			sourceTree = "<group>";
+		};
+		EEC5FCB31956977200174DA8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EEC5FCB41956977200174DA8 /* PixateAssociatedObjects-Info.plist */,
+				EEC5FCB51956977200174DA8 /* InfoPlist.strings */,
+				EEC5FCB81956977200174DA8 /* main.m */,
+				EEC5FCBA1956977200174DA8 /* PixateAssociatedObjects-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EEC5FCD11956977200174DA8 /* PixateAssociatedObjectsTests */ = {
+			isa = PBXGroup;
+			children = (
+				EEC5FCD71956977200174DA8 /* PixateAssociatedObjectsTests.m */,
+				EEC5FCD21956977200174DA8 /* Supporting Files */,
+			);
+			path = PixateAssociatedObjectsTests;
+			sourceTree = "<group>";
+		};
+		EEC5FCD21956977200174DA8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EEC5FCD31956977200174DA8 /* PixateAssociatedObjectsTests-Info.plist */,
+				EEC5FCD41956977200174DA8 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EEC5FCA81956977100174DA8 /* PixateAssociatedObjects */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEC5FCDB1956977200174DA8 /* Build configuration list for PBXNativeTarget "PixateAssociatedObjects" */;
+			buildPhases = (
+				7DCA3CC12E3F418F97A21F12 /* Check Pods Manifest.lock */,
+				EEC5FCA51956977100174DA8 /* Sources */,
+				EEC5FCA61956977100174DA8 /* Frameworks */,
+				EEC5FCA71956977100174DA8 /* Resources */,
+				8E45830B6952439DA9CDCBEE /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PixateAssociatedObjects;
+			productName = PixateAssociatedObjects;
+			productReference = EEC5FCA91956977100174DA8 /* PixateAssociatedObjects.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EEC5FCC91956977200174DA8 /* PixateAssociatedObjectsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEC5FCDE1956977200174DA8 /* Build configuration list for PBXNativeTarget "PixateAssociatedObjectsTests" */;
+			buildPhases = (
+				EEC5FCC61956977200174DA8 /* Sources */,
+				EEC5FCC71956977200174DA8 /* Frameworks */,
+				EEC5FCC81956977200174DA8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EEC5FCD01956977200174DA8 /* PBXTargetDependency */,
+			);
+			name = PixateAssociatedObjectsTests;
+			productName = PixateAssociatedObjectsTests;
+			productReference = EEC5FCCA1956977200174DA8 /* PixateAssociatedObjectsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EEC5FCA11956977100174DA8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = NL;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Nikita Leonov";
+				TargetAttributes = {
+					EEC5FCC91956977200174DA8 = {
+						TestTargetID = EEC5FCA81956977100174DA8;
+					};
+				};
+			};
+			buildConfigurationList = EEC5FCA41956977100174DA8 /* Build configuration list for PBXProject "PixateAssociatedObjects" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EEC5FCA01956977100174DA8;
+			productRefGroup = EEC5FCAA1956977100174DA8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EEC5FCA81956977100174DA8 /* PixateAssociatedObjects */,
+				EEC5FCC91956977200174DA8 /* PixateAssociatedObjectsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EEC5FCA71956977100174DA8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEC5FCC51956977200174DA8 /* Images.xcassets in Resources */,
+				EEC5FCB71956977200174DA8 /* InfoPlist.strings in Resources */,
+				EEC5FCC01956977200174DA8 /* Main.storyboard in Resources */,
+				EEC5FCE5195699B800174DA8 /* default.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEC5FCC81956977200174DA8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEC5FCD61956977200174DA8 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7DCA3CC12E3F418F97A21F12 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8E45830B6952439DA9CDCBEE /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EEC5FCA51956977100174DA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEC5FCBD1956977200174DA8 /* NLAppDelegate.m in Sources */,
+				EEC5FCE3195698EE00174DA8 /* NLTableViewController.m in Sources */,
+				EEC5FCB91956977200174DA8 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEC5FCC61956977200174DA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEC5FCD81956977200174DA8 /* PixateAssociatedObjectsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EEC5FCD01956977200174DA8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EEC5FCA81956977100174DA8 /* PixateAssociatedObjects */;
+			targetProxy = EEC5FCCF1956977200174DA8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EEC5FCB51956977200174DA8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EEC5FCB61956977200174DA8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EEC5FCBE1956977200174DA8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EEC5FCBF1956977200174DA8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EEC5FCD41956977200174DA8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EEC5FCD51956977200174DA8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EEC5FCD91956977200174DA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EEC5FCDA1956977200174DA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EEC5FCDC1956977200174DA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F792143383A142D397DA7A35 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PixateAssociatedObjects/PixateAssociatedObjects-Prefix.pch";
+				INFOPLIST_FILE = "PixateAssociatedObjects/PixateAssociatedObjects-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EEC5FCDD1956977200174DA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F792143383A142D397DA7A35 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PixateAssociatedObjects/PixateAssociatedObjects-Prefix.pch";
+				INFOPLIST_FILE = "PixateAssociatedObjects/PixateAssociatedObjects-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		EEC5FCDF1956977200174DA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PixateAssociatedObjects.app/PixateAssociatedObjects";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PixateAssociatedObjects/PixateAssociatedObjects-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "PixateAssociatedObjectsTests/PixateAssociatedObjectsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		EEC5FCE01956977200174DA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PixateAssociatedObjects.app/PixateAssociatedObjects";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PixateAssociatedObjects/PixateAssociatedObjects-Prefix.pch";
+				INFOPLIST_FILE = "PixateAssociatedObjectsTests/PixateAssociatedObjectsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EEC5FCA41956977100174DA8 /* Build configuration list for PBXProject "PixateAssociatedObjects" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEC5FCD91956977200174DA8 /* Debug */,
+				EEC5FCDA1956977200174DA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEC5FCDB1956977200174DA8 /* Build configuration list for PBXNativeTarget "PixateAssociatedObjects" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEC5FCDC1956977200174DA8 /* Debug */,
+				EEC5FCDD1956977200174DA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEC5FCDE1956977200174DA8 /* Build configuration list for PBXNativeTarget "PixateAssociatedObjectsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEC5FCDF1956977200174DA8 /* Debug */,
+				EEC5FCE01956977200174DA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EEC5FCA11956977100174DA8 /* Project object */;
+}
