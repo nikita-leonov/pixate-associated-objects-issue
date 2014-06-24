@@ -7,14 +7,19 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <PixateFreestyle/PixateFreestyle.h>
+
+#ifdef PIXATE
+    #import <PixateFreestyle/PixateFreestyle.h>
+#endif
 
 #import "NLAppDelegate.h"
 
 int main(int argc, char * argv[])
 {
     @autoreleasepool {
+#ifdef PIXATE
         [PixateFreestyle initializePixateFreestyle];
+#endif
         return UIApplicationMain(argc, argv, nil, NSStringFromClass([NLAppDelegate class]));
     }
 }

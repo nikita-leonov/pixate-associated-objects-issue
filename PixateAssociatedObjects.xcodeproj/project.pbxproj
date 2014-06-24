@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		39C3412C870E404FBC9A745F /* libPods-Pixate.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B734412F925544869893017A /* libPods-Pixate.a */; };
+		EE92CC8F1958157300923F77 /* NLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EEC5FCBC1956977200174DA8 /* NLAppDelegate.m */; };
+		EE92CC901958157300923F77 /* NLTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEC5FCE2195698EE00174DA8 /* NLTableViewController.m */; };
+		EE92CC911958157300923F77 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EEC5FCB81956977200174DA8 /* main.m */; };
+		EE92CC931958157300923F77 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEC5FCAE1956977100174DA8 /* CoreGraphics.framework */; };
+		EE92CC941958157300923F77 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEC5FCB01956977100174DA8 /* UIKit.framework */; };
+		EE92CC951958157300923F77 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEC5FCAC1956977100174DA8 /* Foundation.framework */; };
+		EE92CC981958157300923F77 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEC5FCC41956977200174DA8 /* Images.xcassets */; };
+		EE92CC991958157300923F77 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EEC5FCB51956977200174DA8 /* InfoPlist.strings */; };
+		EE92CC9A1958157300923F77 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEC5FCBE1956977200174DA8 /* Main.storyboard */; };
+		EE92CC9B1958157300923F77 /* default.css in Resources */ = {isa = PBXBuildFile; fileRef = EEC5FCE4195699B800174DA8 /* default.css */; };
 		EEC5FCAD1956977100174DA8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEC5FCAC1956977100174DA8 /* Foundation.framework */; };
 		EEC5FCAF1956977100174DA8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEC5FCAE1956977100174DA8 /* CoreGraphics.framework */; };
 		EEC5FCB11956977100174DA8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEC5FCB01956977100174DA8 /* UIKit.framework */; };
@@ -37,7 +48,11 @@
 
 /* Begin PBXFileReference section */
 		4F20C4D776D44254B92CB6FC /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		EEC5FCA91956977100174DA8 /* PixateAssociatedObjects.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PixateAssociatedObjects.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		78EF771799CE4FAA9B42F569 /* Pods-Pixate.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pixate.xcconfig"; path = "Pods/Pods-Pixate.xcconfig"; sourceTree = "<group>"; };
+		B734412F925544869893017A /* libPods-Pixate.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Pixate.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE92CCA01958157300923F77 /* PixateAssociatedObjects copy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PixateAssociatedObjects copy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE92CCA11958157300923F77 /* PixateAssociatedObjects copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "PixateAssociatedObjects copy-Info.plist"; path = "/Users/nikitaleonov/Projects/TinyBulb/pixate-associated-objects-issue/PixateAssociatedObjects copy-Info.plist"; sourceTree = "<absolute>"; };
+		EEC5FCA91956977100174DA8 /* Pure RAC | No Pixate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pure RAC | No Pixate.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEC5FCAC1956977100174DA8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		EEC5FCAE1956977100174DA8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		EEC5FCB01956977100174DA8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -61,6 +76,17 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		EE92CC921958157300923F77 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE92CC931958157300923F77 /* CoreGraphics.framework in Frameworks */,
+				EE92CC941958157300923F77 /* UIKit.framework in Frameworks */,
+				EE92CC951958157300923F77 /* Foundation.framework in Frameworks */,
+				39C3412C870E404FBC9A745F /* libPods-Pixate.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		EEC5FCA61956977100174DA8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -93,14 +119,17 @@
 				EEC5FCAB1956977100174DA8 /* Frameworks */,
 				EEC5FCAA1956977100174DA8 /* Products */,
 				F792143383A142D397DA7A35 /* Pods.xcconfig */,
+				EE92CCA11958157300923F77 /* PixateAssociatedObjects copy-Info.plist */,
+				78EF771799CE4FAA9B42F569 /* Pods-Pixate.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
 		EEC5FCAA1956977100174DA8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EEC5FCA91956977100174DA8 /* PixateAssociatedObjects.app */,
+				EEC5FCA91956977100174DA8 /* Pure RAC | No Pixate.app */,
 				EEC5FCCA1956977200174DA8 /* PixateAssociatedObjectsTests.xctest */,
+				EE92CCA01958157300923F77 /* PixateAssociatedObjects copy.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -113,6 +142,7 @@
 				EEC5FCB01956977100174DA8 /* UIKit.framework */,
 				EEC5FCCB1956977200174DA8 /* XCTest.framework */,
 				4F20C4D776D44254B92CB6FC /* libPods.a */,
+				B734412F925544869893017A /* libPods-Pixate.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -164,9 +194,28 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		EEC5FCA81956977100174DA8 /* PixateAssociatedObjects */ = {
+		EE92CC8C1958157300923F77 /* Pixate */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EEC5FCDB1956977200174DA8 /* Build configuration list for PBXNativeTarget "PixateAssociatedObjects" */;
+			buildConfigurationList = EE92CC9D1958157300923F77 /* Build configuration list for PBXNativeTarget "Pixate" */;
+			buildPhases = (
+				EE92CC8D1958157300923F77 /* Check Pods Manifest.lock */,
+				EE92CC8E1958157300923F77 /* Sources */,
+				EE92CC921958157300923F77 /* Frameworks */,
+				EE92CC971958157300923F77 /* Resources */,
+				EE92CC9C1958157300923F77 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pixate;
+			productName = PixateAssociatedObjects;
+			productReference = EE92CCA01958157300923F77 /* PixateAssociatedObjects copy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EEC5FCA81956977100174DA8 /* Pure RAC | No Pixate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEC5FCDB1956977200174DA8 /* Build configuration list for PBXNativeTarget "Pure RAC | No Pixate" */;
 			buildPhases = (
 				7DCA3CC12E3F418F97A21F12 /* Check Pods Manifest.lock */,
 				EEC5FCA51956977100174DA8 /* Sources */,
@@ -178,9 +227,9 @@
 			);
 			dependencies = (
 			);
-			name = PixateAssociatedObjects;
+			name = "Pure RAC | No Pixate";
 			productName = PixateAssociatedObjects;
-			productReference = EEC5FCA91956977100174DA8 /* PixateAssociatedObjects.app */;
+			productReference = EEC5FCA91956977100174DA8 /* Pure RAC | No Pixate.app */;
 			productType = "com.apple.product-type.application";
 		};
 		EEC5FCC91956977200174DA8 /* PixateAssociatedObjectsTests */ = {
@@ -229,13 +278,25 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				EEC5FCA81956977100174DA8 /* PixateAssociatedObjects */,
+				EEC5FCA81956977100174DA8 /* Pure RAC | No Pixate */,
+				EE92CC8C1958157300923F77 /* Pixate */,
 				EEC5FCC91956977200174DA8 /* PixateAssociatedObjectsTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		EE92CC971958157300923F77 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE92CC981958157300923F77 /* Images.xcassets in Resources */,
+				EE92CC991958157300923F77 /* InfoPlist.strings in Resources */,
+				EE92CC9A1958157300923F77 /* Main.storyboard in Resources */,
+				EE92CC9B1958157300923F77 /* default.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		EEC5FCA71956977100174DA8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -288,9 +349,49 @@
 			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		EE92CC8D1958157300923F77 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EE92CC9C1958157300923F77 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-Pixate-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		EE92CC8E1958157300923F77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE92CC8F1958157300923F77 /* NLAppDelegate.m in Sources */,
+				EE92CC901958157300923F77 /* NLTableViewController.m in Sources */,
+				EE92CC911958157300923F77 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		EEC5FCA51956977100174DA8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -314,7 +415,7 @@
 /* Begin PBXTargetDependency section */
 		EEC5FCD01956977200174DA8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = EEC5FCA81956977100174DA8 /* PixateAssociatedObjects */;
+			target = EEC5FCA81956977100174DA8 /* Pure RAC | No Pixate */;
 			targetProxy = EEC5FCCF1956977200174DA8 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -347,6 +448,36 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		EE92CC9E1958157300923F77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78EF771799CE4FAA9B42F569 /* Pods-Pixate.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PixateAssociatedObjects/PixateAssociatedObjects-Prefix.pch";
+				INFOPLIST_FILE = "PixateAssociatedObjects copy-Info.plist";
+				PIXATE = 1;
+				PRODUCT_NAME = "PixateAssociatedObjects copy";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EE92CC9F1958157300923F77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78EF771799CE4FAA9B42F569 /* Pods-Pixate.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PixateAssociatedObjects/PixateAssociatedObjects-Prefix.pch";
+				INFOPLIST_FILE = "PixateAssociatedObjects copy-Info.plist";
+				PIXATE = 1;
+				PRODUCT_NAME = "PixateAssociatedObjects copy";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
 		EEC5FCD91956977200174DA8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -488,6 +619,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		EE92CC9D1958157300923F77 /* Build configuration list for PBXNativeTarget "Pixate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE92CC9E1958157300923F77 /* Debug */,
+				EE92CC9F1958157300923F77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		EEC5FCA41956977100174DA8 /* Build configuration list for PBXProject "PixateAssociatedObjects" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -497,7 +637,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EEC5FCDB1956977200174DA8 /* Build configuration list for PBXNativeTarget "PixateAssociatedObjects" */ = {
+		EEC5FCDB1956977200174DA8 /* Build configuration list for PBXNativeTarget "Pure RAC | No Pixate" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EEC5FCDC1956977200174DA8 /* Debug */,
